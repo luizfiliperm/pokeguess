@@ -9,6 +9,8 @@ import lombok.NoArgsConstructor;
 @Data
 public class Pokemon {
 
+    private Integer position;
+
     private Integer number;
 
     private String name;

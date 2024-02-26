@@ -24,7 +24,7 @@ public class PokemonServiceImpl implements PokemonService {
 
         for(int i = 0; i < 25; i++){
             int pokemonId = generateUniqueRandomNumber(pokemonList, min, max);
-            Pokemon pokemon = fetchPokemon(pokemonId);
+            Pokemon pokemon = fetchPokemon(pokemonId, i + 1);
             if(pokemon != null){
                 pokemonList.add(pokemon);
             }
@@ -45,7 +45,7 @@ public class PokemonServiceImpl implements PokemonService {
         return pokemonId;
     }
 
-    private Pokemon fetchPokemon(int pokemonId) {
+    private Pokemon fetchPokemon(int pokemonId, int position) {
         try {
             String url = POKEAPI_BASE_URL + pokemonId;
 
@@ -62,7 +62,7 @@ public class PokemonServiceImpl implements PokemonService {
             String name = json.get("name").asText();
             String spriteUrl = json.get("sprites").get("front_default").asText();
 
-            return new Pokemon(pokemonId, name, spriteUrl);
+            return new Pokemon(position, pokemonId, name, spriteUrl);
 
         }catch (Exception e){
             e.printStackTrace();
