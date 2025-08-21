@@ -1,0 +1,666 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<!-- Created with Jaspersoft Studio version 6.20.6.final using JasperReports Library version 6.20.6-5c96b6aa8a39ac1dc6b6bea4b81168e16dd39231  -->
+<jasperReport xmlns="http://jasperreports.sourceforge.net/jasperreports" xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance" xsi:schemaLocation="http://jasperreports.sourceforge.net/jasperreports http://jasperreports.sourceforge.net/xsd/jasperreport.xsd" name="GridReport" pageWidth="595" pageHeight="450" columnWidth="555" leftMargin="20" rightMargin="20" topMargin="20" bottomMargin="20" uuid="a8e8da99-d72c-4807-940e-23a910da61e8">
+	<property name="com.jaspersoft.studio.data.defaultdataadapter" value="One Empty Record"/>
+	<parameter name="pokemon_name_1" class="java.lang.String"/>
+	<parameter name="pokemon_name_2" class="java.lang.String"/>
+	<parameter name="pokemon_name_3" class="java.lang.String"/>
+	<parameter name="pokemon_name_4" class="java.lang.String"/>
+	<parameter name="pokemon_name_5" class="java.lang.String"/>
+	<parameter name="pokemon_name_6" class="java.lang.String"/>
+	<parameter name="pokemon_name_7" class="java.lang.String"/>
+	<parameter name="pokemon_name_8" class="java.lang.String"/>
+	<parameter name="pokemon_name_9" class="java.lang.String"/>
+	<parameter name="pokemon_name_10" class="java.lang.String"/>
+	<parameter name="pokemon_name_11" class="java.lang.String"/>
+	<parameter name="pokemon_name_12" class="java.lang.String"/>
+	<parameter name="pokemon_name_13" class="java.lang.String"/>
+	<parameter name="pokemon_name_14" class="java.lang.String"/>
+	<parameter name="pokemon_name_15" class="java.lang.String"/>
+	<parameter name="pokemon_name_16" class="java.lang.String"/>
+	<parameter name="pokemon_name_17" class="java.lang.String"/>
+	<parameter name="pokemon_name_18" class="java.lang.String"/>
+	<parameter name="pokemon_name_19" class="java.lang.String"/>
+	<parameter name="pokemon_name_20" class="java.lang.String"/>
+	<parameter name="pokemon_name_21" class="java.lang.String"/>
+	<parameter name="pokemon_name_22" class="java.lang.String"/>
+	<parameter name="pokemon_name_23" class="java.lang.String"/>
+	<parameter name="pokemon_name_24" class="java.lang.String"/>
+	<parameter name="pokemon_name_25" class="java.lang.String"/>
+	<parameter name="pokemon_sprite_1" class="java.lang.String"/>
+	<parameter name="pokemon_sprite_2" class="java.lang.String"/>
+	<parameter name="pokemon_sprite_3" class="java.lang.String"/>
+	<parameter name="pokemon_sprite_4" class="java.lang.String"/>
+	<parameter name="pokemon_sprite_5" class="java.lang.String"/>
+	<parameter name="pokemon_sprite_6" class="java.lang.String"/>
+	<parameter name="pokemon_sprite_7" class="java.lang.String"/>
+	<parameter name="pokemon_sprite_8" class="java.lang.String"/>
+	<parameter name="pokemon_sprite_9" class="java.lang.String"/>
+	<parameter name="pokemon_sprite_10" class="java.lang.String"/>
+	<parameter name="pokemon_sprite_11" class="java.lang.String"/>
+	<parameter name="pokemon_sprite_12" class="java.lang.String"/>
+	<parameter name="pokemon_sprite_13" class="java.lang.String"/>
+	<parameter name="pokemon_sprite_14" class="java.lang.String"/>
+	<parameter name="pokemon_sprite_15" class="java.lang.String"/>
+	<parameter name="pokemon_sprite_16" class="java.lang.String"/>
+	<parameter name="pokemon_sprite_17" class="java.lang.String"/>
+	<parameter name="pokemon_sprite_18" class="java.lang.String"/>
+	<parameter name="pokemon_sprite_19" class="java.lang.String"/>
+	<parameter name="pokemon_sprite_20" class="java.lang.String"/>
+	<parameter name="pokemon_sprite_21" class="java.lang.String"/>
+	<parameter name="pokemon_sprite_22" class="java.lang.String"/>
+	<parameter name="pokemon_sprite_23" class="java.lang.String"/>
+	<parameter name="pokemon_sprite_24" class="java.lang.String"/>
+	<parameter name="pokemon_sprite_25" class="java.lang.String"/>
+	<detail>
+		<band height="400" splitType="Stretch">
+			<frame>
+				<reportElement x="25" y="0" width="100" height="80" uuid="2b47efef-e265-49c7-b3f7-22a567ad5317"/>
+				<box>
+					<pen lineWidth="1.0"/>
+				</box>
+				<image hAlign="Center" vAlign="Middle">
+					<reportElement mode="Transparent" x="15" y="6" width="70" height="70" uuid="f16b307a-38d4-43fd-89cb-5fdf3d58ade4">
+						<property name="com.jaspersoft.studio.unit.width" value="px"/>
+						<property name="com.jaspersoft.studio.unit.height" value="px"/>
+					</reportElement>
+					<imageExpression><![CDATA["static/images/pokeball.png"]]></imageExpression>
+				</image>
+				<image hAlign="Center" vAlign="Middle">
+					<reportElement x="1" y="1" width="99" height="79" uuid="44bf7414-bdef-4f5d-b539-834f4732c5d4"/>
+					<imageExpression><![CDATA[$P{pokemon_sprite_1}]]></imageExpression>
+				</image>
+				<textField textAdjust="ScaleFont" isBlankWhenNull="false">
+					<reportElement x="0" y="51" width="100" height="29" uuid="f72337d7-6a3d-49c7-9bc5-971da4e169fe"/>
+					<box padding="2">
+						<pen lineWidth="2.0" lineColor="#FF0703"/>
+						<topPen lineWidth="0.0" lineStyle="Solid" lineColor="#000000"/>
+						<leftPen lineWidth="0.0" lineStyle="Solid" lineColor="#000000"/>
+						<bottomPen lineWidth="0.0" lineStyle="Solid" lineColor="#000000"/>
+						<rightPen lineWidth="0.0" lineStyle="Solid" lineColor="#000000"/>
+					</box>
+					<textElement textAlignment="Center" verticalAlignment="Middle" markup="styled">
+						<font fontName="Microsoft JhengHei UI" size="18" isBold="true"/>
+					</textElement>
+					<textFieldExpression><![CDATA[$P{pokemon_name_1}]]></textFieldExpression>
+				</textField>
+			</frame>
+			<frame>
+				<reportElement x="125" y="0" width="100" height="80" uuid="d9ba99c4-9d22-41cd-bc42-3e63584c23da"/>
+				<box>
+					<pen lineWidth="1.0"/>
+				</box>
+				<image hAlign="Center" vAlign="Middle">
+					<reportElement mode="Transparent" x="15" y="6" width="70" height="70" uuid="74bd4545-c4bb-4136-a4fc-07fb88e63018">
+						<property name="com.jaspersoft.studio.unit.width" value="px"/>
+						<property name="com.jaspersoft.studio.unit.height" value="px"/>
+					</reportElement>
+					<imageExpression><![CDATA["static/images/pokeball.png"]]></imageExpression>
+				</image>
+				<image hAlign="Center" vAlign="Middle">
+					<reportElement x="1" y="1" width="99" height="79" uuid="43aa2d75-4a83-4170-9e68-c40e86f28bee"/>
+					<imageExpression><![CDATA[$P{pokemon_sprite_2}]]></imageExpression>
+				</image>
+				<textField textAdjust="ScaleFont">
+					<reportElement x="0" y="51" width="100" height="29" uuid="8ca84f77-8ea6-44cf-9841-884965859efd"/>
+					<textElement textAlignment="Center" verticalAlignment="Middle" markup="styled">
+						<font fontName="Microsoft JhengHei UI" size="18" isBold="true"/>
+					</textElement>
+					<textFieldExpression><![CDATA[$P{pokemon_name_2}]]></textFieldExpression>
+				</textField>
+			</frame>
+			<frame>
+				<reportElement x="225" y="0" width="100" height="80" uuid="063645bc-be79-4067-addd-e0e09e78be1d"/>
+				<box>
+					<pen lineWidth="1.0"/>
+				</box>
+				<image hAlign="Center" vAlign="Middle">
+					<reportElement mode="Transparent" x="15" y="6" width="70" height="70" uuid="4c303aae-3353-4d16-940e-6332464ee4e7">
+						<property name="com.jaspersoft.studio.unit.width" value="px"/>
+						<property name="com.jaspersoft.studio.unit.height" value="px"/>
+					</reportElement>
+					<imageExpression><![CDATA["static/images/pokeball.png"]]></imageExpression>
+				</image>
+				<image hAlign="Center" vAlign="Middle">
+					<reportElement x="1" y="1" width="99" height="79" uuid="ee71bd6e-55f5-4038-b09d-02a116608e05"/>
+					<imageExpression><![CDATA[$P{pokemon_sprite_3}]]></imageExpression>
+				</image>
+				<textField textAdjust="ScaleFont">
+					<reportElement x="0" y="51" width="100" height="29" uuid="9ece40a8-a5aa-41a9-a6a4-c1b0085a7116"/>
+					<textElement textAlignment="Center" verticalAlignment="Middle" markup="styled">
+						<font fontName="Microsoft JhengHei UI" size="18" isBold="true"/>
+					</textElement>
+					<textFieldExpression><![CDATA[$P{pokemon_name_3}]]></textFieldExpression>
+				</textField>
+			</frame>
+			<frame>
+				<reportElement x="325" y="0" width="100" height="80" uuid="39094530-2859-4de0-97e5-d0dd7d3b27c6"/>
+				<box>
+					<pen lineWidth="1.0"/>
+				</box>
+				<image hAlign="Center" vAlign="Middle">
+					<reportElement mode="Transparent" x="15" y="6" width="70" height="70" uuid="13745c65-4c3d-4265-8716-e6fbfa54d117">
+						<property name="com.jaspersoft.studio.unit.width" value="px"/>
+						<property name="com.jaspersoft.studio.unit.height" value="px"/>
+					</reportElement>
+					<imageExpression><![CDATA["static/images/pokeball.png"]]></imageExpression>
+				</image>
+				<image hAlign="Center" vAlign="Middle">
+					<reportElement x="1" y="1" width="99" height="79" uuid="ad2ac65f-f7fc-4c67-b108-8c74821876ba"/>
+					<imageExpression><![CDATA[$P{pokemon_sprite_4}]]></imageExpression>
+				</image>
+				<textField textAdjust="ScaleFont">
+					<reportElement x="0" y="51" width="100" height="29" uuid="cdd178a5-2b9e-4c82-bc1c-aa39379ab2d5"/>
+					<textElement textAlignment="Center" verticalAlignment="Middle" markup="styled">
+						<font fontName="Microsoft JhengHei UI" size="18" isBold="true"/>
+					</textElement>
+					<textFieldExpression><![CDATA[$P{pokemon_name_4}]]></textFieldExpression>
+				</textField>
+			</frame>
+			<frame>
+				<reportElement x="425" y="0" width="100" height="80" uuid="da56a824-3b66-4a97-9b9e-02ff44ffedc2"/>
+				<box>
+					<pen lineWidth="1.0"/>
+				</box>
+				<image hAlign="Center" vAlign="Middle">
+					<reportElement mode="Transparent" x="15" y="6" width="70" height="70" uuid="d4d70ac6-2782-4dee-9e7e-6eadcc459390">
+						<property name="com.jaspersoft.studio.unit.width" value="px"/>
+						<property name="com.jaspersoft.studio.unit.height" value="px"/>
+					</reportElement>
+					<imageExpression><![CDATA["static/images/pokeball.png"]]></imageExpression>
+				</image>
+				<image hAlign="Center" vAlign="Middle">
+					<reportElement x="1" y="1" width="99" height="79" uuid="f27ff690-ba3e-475b-b572-7e60f1501356"/>
+					<imageExpression><![CDATA[$P{pokemon_sprite_5}]]></imageExpression>
+				</image>
+				<textField textAdjust="ScaleFont">
+					<reportElement x="0" y="51" width="100" height="29" uuid="1cc7c776-ff7f-4fd6-8dc4-88d49f4b2148"/>
+					<textElement textAlignment="Center" verticalAlignment="Middle" markup="styled">
+						<font fontName="Microsoft JhengHei UI" size="18" isBold="true"/>
+					</textElement>
+					<textFieldExpression><![CDATA[$P{pokemon_name_5}]]></textFieldExpression>
+				</textField>
+			</frame>
+			<frame>
+				<reportElement x="25" y="80" width="100" height="80" uuid="3903bd8f-bc14-42e3-9ce2-d1c7e89dd680"/>
+				<box>
+					<pen lineWidth="1.0"/>
+				</box>
+				<image hAlign="Center" vAlign="Middle">
+					<reportElement mode="Transparent" x="15" y="6" width="70" height="70" uuid="a32efeb6-897c-4271-9232-b7a270ac11f9">
+						<property name="com.jaspersoft.studio.unit.width" value="px"/>
+						<property name="com.jaspersoft.studio.unit.height" value="px"/>
+					</reportElement>
+					<imageExpression><![CDATA["static/images/pokeball.png"]]></imageExpression>
+				</image>
+				<image hAlign="Center" vAlign="Middle">
+					<reportElement x="1" y="1" width="99" height="79" uuid="09615a3f-7632-48bc-8074-88e0c65ff7c4"/>
+					<imageExpression><![CDATA[$P{pokemon_sprite_6}]]></imageExpression>
+				</image>
+				<textField textAdjust="ScaleFont">
+					<reportElement x="0" y="51" width="100" height="29" uuid="d0628418-17c8-4795-bfbe-f79cf7d077be"/>
+					<textElement textAlignment="Center" verticalAlignment="Middle" markup="styled">
+						<font fontName="Microsoft JhengHei UI" size="18" isBold="true"/>
+					</textElement>
+					<textFieldExpression><![CDATA[$P{pokemon_name_6}]]></textFieldExpression>
+				</textField>
+			</frame>
+			<frame>
+				<reportElement x="125" y="80" width="100" height="80" uuid="3d7ebded-e3ad-48d2-be6d-6f78215b8c42"/>
+				<box>
+					<pen lineWidth="1.0"/>
+				</box>
+				<image hAlign="Center" vAlign="Middle">
+					<reportElement mode="Transparent" x="15" y="6" width="70" height="70" uuid="526a7dd8-6923-4973-bfe6-b64e26136fac">
+						<property name="com.jaspersoft.studio.unit.width" value="px"/>
+						<property name="com.jaspersoft.studio.unit.height" value="px"/>
+					</reportElement>
+					<imageExpression><![CDATA["static/images/pokeball.png"]]></imageExpression>
+				</image>
+				<image hAlign="Center" vAlign="Middle">
+					<reportElement x="1" y="1" width="99" height="79" uuid="701265f8-0eba-4a4f-b7cb-ff35702415f2"/>
+					<imageExpression><![CDATA[$P{pokemon_sprite_7}]]></imageExpression>
+				</image>
+				<textField textAdjust="ScaleFont">
+					<reportElement x="0" y="51" width="100" height="29" uuid="e218b8b1-16da-4e91-9805-9decb0144a05"/>
+					<textElement textAlignment="Center" verticalAlignment="Middle" markup="styled">
+						<font fontName="Microsoft JhengHei UI" size="18" isBold="true"/>
+					</textElement>
+					<textFieldExpression><![CDATA[$P{pokemon_name_7}]]></textFieldExpression>
+				</textField>
+			</frame>
+			<frame>
+				<reportElement x="225" y="80" width="100" height="80" uuid="49ebeb31-f991-434f-ae87-34878dff402b"/>
+				<box>
+					<pen lineWidth="1.0"/>
+				</box>
+				<image hAlign="Center" vAlign="Middle">
+					<reportElement mode="Transparent" x="15" y="6" width="70" height="70" uuid="deda546b-82f0-47b6-90d8-3332fa67c6d9">
+						<property name="com.jaspersoft.studio.unit.width" value="px"/>
+						<property name="com.jaspersoft.studio.unit.height" value="px"/>
+					</reportElement>
+					<imageExpression><![CDATA["static/images/pokeball.png"]]></imageExpression>
+				</image>
+				<image hAlign="Center" vAlign="Middle">
+					<reportElement x="1" y="1" width="99" height="79" uuid="261bb32c-abfb-4ded-9cd1-53f4aa499c8d"/>
+					<imageExpression><![CDATA[$P{pokemon_sprite_8}]]></imageExpression>
+				</image>
+				<textField textAdjust="ScaleFont">
+					<reportElement x="0" y="51" width="100" height="29" uuid="b23b1670-c108-48d8-9cc8-a33d7ef22a88"/>
+					<textElement textAlignment="Center" verticalAlignment="Middle" markup="styled">
+						<font fontName="Microsoft JhengHei UI" size="18" isBold="true"/>
+					</textElement>
+					<textFieldExpression><![CDATA[$P{pokemon_name_8}]]></textFieldExpression>
+				</textField>
+			</frame>
+			<frame>
+				<reportElement x="325" y="80" width="100" height="80" uuid="bfe4a7cb-8342-4bde-b751-5db5798f81bc"/>
+				<box>
+					<pen lineWidth="1.0"/>
+				</box>
+				<image hAlign="Center" vAlign="Middle">
+					<reportElement mode="Transparent" x="15" y="6" width="70" height="70" uuid="7890d6bc-e1cf-445c-9ff2-e8bb054e8e5b">
+						<property name="com.jaspersoft.studio.unit.width" value="px"/>
+						<property name="com.jaspersoft.studio.unit.height" value="px"/>
+					</reportElement>
+					<imageExpression><![CDATA["static/images/pokeball.png"]]></imageExpression>
+				</image>
+				<image hAlign="Center" vAlign="Middle">
+					<reportElement x="1" y="1" width="99" height="79" uuid="96654273-ff00-43c0-800d-db82b21c731e"/>
+					<imageExpression><![CDATA[$P{pokemon_sprite_9}]]></imageExpression>
+				</image>
+				<textField textAdjust="ScaleFont">
+					<reportElement x="0" y="51" width="100" height="29" uuid="22e7e37b-cb05-439e-8b0b-e95f8e248893"/>
+					<textElement textAlignment="Center" verticalAlignment="Middle" markup="styled">
+						<font fontName="Microsoft JhengHei UI" size="18" isBold="true"/>
+					</textElement>
+					<textFieldExpression><![CDATA[$P{pokemon_name_9}]]></textFieldExpression>
+				</textField>
+			</frame>
+			<frame>
+				<reportElement x="425" y="80" width="100" height="80" uuid="af6df596-c4e7-46b4-afe7-a5e366192670"/>
+				<box>
+					<pen lineWidth="1.0"/>
+				</box>
+				<image hAlign="Center" vAlign="Middle">
+					<reportElement mode="Transparent" x="15" y="6" width="70" height="70" uuid="ec06fe5b-d776-4a8d-b6c5-960be18a327e">
+						<property name="com.jaspersoft.studio.unit.width" value="px"/>
+						<property name="com.jaspersoft.studio.unit.height" value="px"/>
+					</reportElement>
+					<imageExpression><![CDATA["static/images/pokeball.png"]]></imageExpression>
+				</image>
+				<image hAlign="Center" vAlign="Middle">
+					<reportElement x="1" y="1" width="99" height="79" uuid="23dc8f4e-d0d2-42c2-9833-62556e25e55a"/>
+					<imageExpression><![CDATA[$P{pokemon_sprite_10}]]></imageExpression>
+				</image>
+				<textField textAdjust="ScaleFont">
+					<reportElement x="0" y="51" width="100" height="29" uuid="2609a27d-0103-4794-953f-ec031656f7f5"/>
+					<textElement textAlignment="Center" verticalAlignment="Middle" markup="styled">
+						<font fontName="Microsoft JhengHei UI" size="18" isBold="true"/>
+					</textElement>
+					<textFieldExpression><![CDATA[$P{pokemon_name_10}]]></textFieldExpression>
+				</textField>
+			</frame>
+			<frame>
+				<reportElement x="25" y="160" width="100" height="80" uuid="c486f4c7-0bb7-48f3-b139-e862878692ed"/>
+				<box>
+					<pen lineWidth="1.0"/>
+				</box>
+				<image hAlign="Center" vAlign="Middle">
+					<reportElement mode="Transparent" x="15" y="6" width="70" height="70" uuid="6ad921df-23de-4a88-b24a-2fc3a68822f4">
+						<property name="com.jaspersoft.studio.unit.width" value="px"/>
+						<property name="com.jaspersoft.studio.unit.height" value="px"/>
+					</reportElement>
+					<imageExpression><![CDATA["static/images/pokeball.png"]]></imageExpression>
+				</image>
+				<image hAlign="Center" vAlign="Middle">
+					<reportElement x="1" y="1" width="99" height="79" uuid="2cd46416-92f5-4398-9123-6a9125344a1f"/>
+					<imageExpression><![CDATA[$P{pokemon_sprite_11}]]></imageExpression>
+				</image>
+				<textField textAdjust="ScaleFont">
+					<reportElement x="0" y="51" width="100" height="29" uuid="da3e51b2-465b-4ef4-8374-9433c917e550"/>
+					<textElement textAlignment="Center" verticalAlignment="Middle" markup="styled">
+						<font fontName="Microsoft JhengHei UI" size="18" isBold="true"/>
+					</textElement>
+					<textFieldExpression><![CDATA[$P{pokemon_name_11}]]></textFieldExpression>
+				</textField>
+			</frame>
+			<frame>
+				<reportElement x="125" y="160" width="100" height="80" uuid="799e04be-8454-4f51-833b-177c208ba211"/>
+				<box>
+					<pen lineWidth="1.0"/>
+				</box>
+				<image hAlign="Center" vAlign="Middle">
+					<reportElement mode="Transparent" x="15" y="6" width="70" height="70" uuid="239ca22e-da5d-4d07-ba19-b6c18269c35d">
+						<property name="com.jaspersoft.studio.unit.width" value="px"/>
+						<property name="com.jaspersoft.studio.unit.height" value="px"/>
+					</reportElement>
+					<imageExpression><![CDATA["static/images/pokeball.png"]]></imageExpression>
+				</image>
+				<image hAlign="Center" vAlign="Middle">
+					<reportElement x="1" y="1" width="99" height="79" uuid="71f15494-d700-4eac-8bf5-16f51a34990e"/>
+					<imageExpression><![CDATA[$P{pokemon_sprite_12}]]></imageExpression>
+				</image>
+				<textField textAdjust="ScaleFont">
+					<reportElement x="0" y="51" width="100" height="29" uuid="eadead81-3cea-443b-815a-ed09b101723c"/>
+					<textElement textAlignment="Center" verticalAlignment="Middle" markup="styled">
+						<font fontName="Microsoft JhengHei UI" size="18" isBold="true"/>
+					</textElement>
+					<textFieldExpression><![CDATA[$P{pokemon_name_12}]]></textFieldExpression>
+				</textField>
+			</frame>
+			<frame>
+				<reportElement x="225" y="160" width="100" height="80" uuid="92037028-9239-4398-bf2a-efde68086fd0"/>
+				<box>
+					<pen lineWidth="1.0"/>
+				</box>
+				<image hAlign="Center" vAlign="Middle">
+					<reportElement mode="Transparent" x="15" y="6" width="70" height="70" uuid="61f2af0a-6c2b-4ddc-b887-4d8821a7dd80">
+						<property name="com.jaspersoft.studio.unit.width" value="px"/>
+						<property name="com.jaspersoft.studio.unit.height" value="px"/>
+					</reportElement>
+					<imageExpression><![CDATA["static/images/pokeball.png"]]></imageExpression>
+				</image>
+				<image hAlign="Center" vAlign="Middle">
+					<reportElement x="1" y="1" width="99" height="79" uuid="16c95f08-ea0f-485d-879c-45d576f7fec6"/>
+					<imageExpression><![CDATA[$P{pokemon_sprite_13}]]></imageExpression>
+				</image>
+				<textField textAdjust="ScaleFont">
+					<reportElement x="0" y="51" width="100" height="29" uuid="1f132240-1863-444c-bce9-4e7842a66b20"/>
+					<textElement textAlignment="Center" verticalAlignment="Middle" markup="styled">
+						<font fontName="Microsoft JhengHei UI" size="18" isBold="true"/>
+					</textElement>
+					<textFieldExpression><![CDATA[$P{pokemon_name_13}]]></textFieldExpression>
+				</textField>
+			</frame>
+			<frame>
+				<reportElement x="325" y="160" width="100" height="80" uuid="8706cbc9-ba05-45e7-af1d-68fcb5828b4a"/>
+				<box>
+					<pen lineWidth="1.0"/>
+				</box>
+				<image hAlign="Center" vAlign="Middle">
+					<reportElement mode="Transparent" x="15" y="6" width="70" height="70" uuid="0f3845fb-b0da-4774-a510-3172d409db62">
+						<property name="com.jaspersoft.studio.unit.width" value="px"/>
+						<property name="com.jaspersoft.studio.unit.height" value="px"/>
+					</reportElement>
+					<imageExpression><![CDATA["static/images/pokeball.png"]]></imageExpression>
+				</image>
+				<image hAlign="Center" vAlign="Middle">
+					<reportElement x="1" y="1" width="99" height="79" uuid="84996664-0830-46e1-9862-05cb1d7204bd"/>
+					<imageExpression><![CDATA[$P{pokemon_sprite_14}]]></imageExpression>
+				</image>
+				<textField textAdjust="ScaleFont">
+					<reportElement x="0" y="51" width="100" height="29" uuid="7e7bf8da-1204-426b-8a25-770a6e624e9d"/>
+					<textElement textAlignment="Center" verticalAlignment="Middle" markup="styled">
+						<font fontName="Microsoft JhengHei UI" size="18" isBold="true"/>
+					</textElement>
+					<textFieldExpression><![CDATA[$P{pokemon_name_14}]]></textFieldExpression>
+				</textField>
+			</frame>
+			<frame>
+				<reportElement x="425" y="160" width="100" height="80" uuid="f6d95dd9-b4ee-4357-9346-d4881510d46f"/>
+				<box>
+					<pen lineWidth="1.0"/>
+				</box>
+				<image hAlign="Center" vAlign="Middle">
+					<reportElement mode="Transparent" x="15" y="6" width="70" height="70" uuid="1ceebabb-0e0e-4119-a74f-69ba17db0cdb">
+						<property name="com.jaspersoft.studio.unit.width" value="px"/>
+						<property name="com.jaspersoft.studio.unit.height" value="px"/>
+					</reportElement>
+					<imageExpression><![CDATA["static/images/pokeball.png"]]></imageExpression>
+				</image>
+				<image hAlign="Center" vAlign="Middle">
+					<reportElement x="1" y="1" width="99" height="79" uuid="57fbbcef-dbf4-4b45-82f9-02728e44f2b5"/>
+					<imageExpression><![CDATA[$P{pokemon_sprite_15}]]></imageExpression>
+				</image>
+				<textField textAdjust="ScaleFont">
+					<reportElement x="0" y="51" width="100" height="29" uuid="3bb27b90-f444-4b13-8b30-57ce17ceea33"/>
+					<textElement textAlignment="Center" verticalAlignment="Middle" markup="styled">
+						<font fontName="Microsoft JhengHei UI" size="18" isBold="true"/>
+					</textElement>
+					<textFieldExpression><![CDATA[$P{pokemon_name_15}]]></textFieldExpression>
+				</textField>
+			</frame>
+			<frame>
+				<reportElement x="25" y="240" width="100" height="80" uuid="af1730b8-796a-4781-9049-b19cb84e3c6f"/>
+				<box>
+					<pen lineWidth="1.0"/>
+				</box>
+				<image hAlign="Center" vAlign="Middle">
+					<reportElement mode="Transparent" x="15" y="6" width="70" height="70" uuid="82270fea-68d8-44d8-9196-54883f2b0e52">
+						<property name="com.jaspersoft.studio.unit.width" value="px"/>
+						<property name="com.jaspersoft.studio.unit.height" value="px"/>
+					</reportElement>
+					<imageExpression><![CDATA["static/images/pokeball.png"]]></imageExpression>
+				</image>
+				<image hAlign="Center" vAlign="Middle">
+					<reportElement x="1" y="1" width="99" height="79" uuid="07fd476f-b8e1-422a-9ca1-d3c7db2c42de"/>
+					<imageExpression><![CDATA[$P{pokemon_sprite_16}]]></imageExpression>
+				</image>
+				<textField textAdjust="ScaleFont">
+					<reportElement x="0" y="51" width="100" height="29" uuid="f137943b-ffdd-4ba4-93de-0138c306dc05"/>
+					<textElement textAlignment="Center" verticalAlignment="Middle" markup="styled">
+						<font fontName="Microsoft JhengHei UI" size="18" isBold="true"/>
+					</textElement>
+					<textFieldExpression><![CDATA[$P{pokemon_name_16}]]></textFieldExpression>
+				</textField>
+			</frame>
+			<frame>
+				<reportElement x="125" y="240" width="100" height="80" uuid="c1c96db3-6dc5-459b-a014-0fed7a41ad28"/>
+				<box>
+					<pen lineWidth="1.0"/>
+				</box>
+				<image hAlign="Center" vAlign="Middle">
+					<reportElement mode="Transparent" x="15" y="6" width="70" height="70" uuid="7ab3a0f2-02ea-477c-b525-5bbc19cff24a">
+						<property name="com.jaspersoft.studio.unit.width" value="px"/>
+						<property name="com.jaspersoft.studio.unit.height" value="px"/>
+					</reportElement>
+					<imageExpression><![CDATA["static/images/pokeball.png"]]></imageExpression>
+				</image>
+				<image hAlign="Center" vAlign="Middle">
+					<reportElement x="1" y="1" width="99" height="79" uuid="cf0c8049-7b4a-4bbd-b30a-97f0ca25fe39"/>
+					<imageExpression><![CDATA[$P{pokemon_sprite_17}]]></imageExpression>
+				</image>
+				<textField textAdjust="ScaleFont">
+					<reportElement x="0" y="51" width="100" height="29" uuid="ac873175-219d-4e56-9642-6586e00f609c"/>
+					<textElement textAlignment="Center" verticalAlignment="Middle" markup="styled">
+						<font fontName="Microsoft JhengHei UI" size="18" isBold="true"/>
+					</textElement>
+					<textFieldExpression><![CDATA[$P{pokemon_name_17}]]></textFieldExpression>
+				</textField>
+			</frame>
+			<frame>
+				<reportElement x="225" y="240" width="100" height="80" uuid="23e19d94-c97d-455d-81cc-03085176573e"/>
+				<box>
+					<pen lineWidth="1.0"/>
+				</box>
+				<image hAlign="Center" vAlign="Middle">
+					<reportElement mode="Transparent" x="15" y="6" width="70" height="70" uuid="da2eb0d9-5147-4d82-87e9-8b1af6d3c9d1">
+						<property name="com.jaspersoft.studio.unit.width" value="px"/>
+						<property name="com.jaspersoft.studio.unit.height" value="px"/>
+					</reportElement>
+					<imageExpression><![CDATA["static/images/pokeball.png"]]></imageExpression>
+				</image>
+				<image hAlign="Center" vAlign="Middle">
+					<reportElement x="1" y="1" width="99" height="79" uuid="a083b430-8b15-4d44-b964-cbbca2a38110"/>
+					<imageExpression><![CDATA[$P{pokemon_sprite_18}]]></imageExpression>
+				</image>
+				<textField textAdjust="ScaleFont">
+					<reportElement x="0" y="51" width="100" height="29" uuid="dcfd9977-269d-45ee-9798-3d6ef00e5fe0"/>
+					<textElement textAlignment="Center" verticalAlignment="Middle" markup="styled">
+						<font fontName="Microsoft JhengHei UI" size="18" isBold="true"/>
+					</textElement>
+					<textFieldExpression><![CDATA[$P{pokemon_name_18}]]></textFieldExpression>
+				</textField>
+			</frame>
+			<frame>
+				<reportElement x="325" y="240" width="100" height="80" uuid="c272ca56-949f-4529-b043-2d7a1240c66f"/>
+				<box>
+					<pen lineWidth="1.0"/>
+				</box>
+				<image hAlign="Center" vAlign="Middle">
+					<reportElement mode="Transparent" x="15" y="6" width="70" height="70" uuid="18722848-96c2-4e53-a553-f281be705f6e">
+						<property name="com.jaspersoft.studio.unit.width" value="px"/>
+						<property name="com.jaspersoft.studio.unit.height" value="px"/>
+					</reportElement>
+					<imageExpression><![CDATA["static/images/pokeball.png"]]></imageExpression>
+				</image>
+				<image hAlign="Center" vAlign="Middle">
+					<reportElement x="1" y="1" width="99" height="79" uuid="dd95d0ed-b426-42c7-8629-0badaf4cb43c"/>
+					<imageExpression><![CDATA[$P{pokemon_sprite_19}]]></imageExpression>
+				</image>
+				<textField textAdjust="ScaleFont">
+					<reportElement x="0" y="51" width="100" height="29" uuid="51883374-6256-45bf-916b-61e6bc1b093c"/>
+					<textElement textAlignment="Center" verticalAlignment="Middle" markup="styled">
+						<font fontName="Microsoft JhengHei UI" size="18" isBold="true"/>
+					</textElement>
+					<textFieldExpression><![CDATA[$P{pokemon_name_19}]]></textFieldExpression>
+				</textField>
+			</frame>
+			<frame>
+				<reportElement x="425" y="240" width="100" height="80" uuid="1a295db5-1bbc-4aa9-bbe8-72a3a4b8b212"/>
+				<box>
+					<pen lineWidth="1.0"/>
+				</box>
+				<image hAlign="Center" vAlign="Middle">
+					<reportElement mode="Transparent" x="15" y="6" width="70" height="70" uuid="792079d7-4b57-44c8-97fd-e48a61c01a4a">
+						<property name="com.jaspersoft.studio.unit.width" value="px"/>
+						<property name="com.jaspersoft.studio.unit.height" value="px"/>
+					</reportElement>
+					<imageExpression><![CDATA["static/images/pokeball.png"]]></imageExpression>
+				</image>
+				<image hAlign="Center" vAlign="Middle">
+					<reportElement x="1" y="1" width="99" height="79" uuid="71b92d35-dc01-4a9a-9059-3b0aec716d0c"/>
+					<imageExpression><![CDATA[$P{pokemon_sprite_20}]]></imageExpression>
+				</image>
+				<textField textAdjust="ScaleFont">
+					<reportElement x="0" y="51" width="100" height="29" uuid="47132bfb-4663-4728-b314-1399f665a377"/>
+					<textElement textAlignment="Center" verticalAlignment="Middle" markup="styled">
+						<font fontName="Microsoft JhengHei UI" size="18" isBold="true"/>
+					</textElement>
+					<textFieldExpression><![CDATA[$P{pokemon_name_20}]]></textFieldExpression>
+				</textField>
+			</frame>
+			<frame>
+				<reportElement x="25" y="320" width="100" height="80" uuid="26b63153-6892-4134-828e-ec352286ba7d"/>
+				<box>
+					<pen lineWidth="1.0"/>
+				</box>
+				<image hAlign="Center" vAlign="Middle">
+					<reportElement mode="Transparent" x="15" y="6" width="70" height="70" uuid="d16b3a3c-b28b-4dbb-97fe-ac9aa5b3c4b3">
+						<property name="com.jaspersoft.studio.unit.width" value="px"/>
+						<property name="com.jaspersoft.studio.unit.height" value="px"/>
+					</reportElement>
+					<imageExpression><![CDATA["static/images/pokeball.png"]]></imageExpression>
+				</image>
+				<image hAlign="Center" vAlign="Middle">
+					<reportElement x="1" y="1" width="99" height="79" uuid="8e6d9354-e39b-4372-9b0d-af77674b79a6"/>
+					<imageExpression><![CDATA[$P{pokemon_sprite_21}]]></imageExpression>
+				</image>
+				<textField textAdjust="ScaleFont">
+					<reportElement x="0" y="51" width="100" height="29" uuid="bb070e10-cb21-48ab-85b2-a89b01782c05"/>
+					<textElement textAlignment="Center" verticalAlignment="Middle" markup="styled">
+						<font fontName="Microsoft JhengHei UI" size="18" isBold="true"/>
+					</textElement>
+					<textFieldExpression><![CDATA[$P{pokemon_name_21}]]></textFieldExpression>
+				</textField>
+			</frame>
+			<frame>
+				<reportElement x="125" y="320" width="100" height="80" uuid="d4f18b86-61f0-4377-b7c2-e9bdea647b79"/>
+				<box>
+					<pen lineWidth="1.0"/>
+				</box>
+				<image hAlign="Center" vAlign="Middle">
+					<reportElement mode="Transparent" x="15" y="6" width="70" height="70" uuid="321e6253-354e-4c59-858d-8a62de2e5801">
+						<property name="com.jaspersoft.studio.unit.width" value="px"/>
+						<property name="com.jaspersoft.studio.unit.height" value="px"/>
+					</reportElement>
+					<imageExpression><![CDATA["static/images/pokeball.png"]]></imageExpression>
+				</image>
+				<image hAlign="Center" vAlign="Middle">
+					<reportElement x="1" y="1" width="99" height="79" uuid="5c673016-a94f-4dff-be81-b9baa446f481"/>
+					<imageExpression><![CDATA[$P{pokemon_sprite_22}]]></imageExpression>
+				</image>
+				<textField textAdjust="ScaleFont">
+					<reportElement x="0" y="51" width="100" height="29" uuid="2b6b0dda-dbe4-4eae-b14c-31d0ae1a772f"/>
+					<textElement textAlignment="Center" verticalAlignment="Middle" markup="styled">
+						<font fontName="Microsoft JhengHei UI" size="18" isBold="true"/>
+					</textElement>
+					<textFieldExpression><![CDATA[$P{pokemon_name_22}]]></textFieldExpression>
+				</textField>
+			</frame>
+			<frame>
+				<reportElement x="225" y="320" width="100" height="80" uuid="c0b53f92-b964-4703-a1ed-90d14326c45c"/>
+				<box>
+					<pen lineWidth="1.0"/>
+				</box>
+				<image hAlign="Center" vAlign="Middle">
+					<reportElement mode="Transparent" x="15" y="6" width="70" height="70" uuid="d2894d74-e85a-4ba4-9e4f-5c55a03b5e6c">
+						<property name="com.jaspersoft.studio.unit.width" value="px"/>
+						<property name="com.jaspersoft.studio.unit.height" value="px"/>
+					</reportElement>
+					<imageExpression><![CDATA["static/images/pokeball.png"]]></imageExpression>
+				</image>
+				<image hAlign="Center" vAlign="Middle">
+					<reportElement x="1" y="1" width="99" height="79" uuid="fb49258e-1a4e-4be4-b9c1-ece7ec35280d"/>
+					<imageExpression><![CDATA[$P{pokemon_sprite_23}]]></imageExpression>
+				</image>
+				<textField textAdjust="ScaleFont">
+					<reportElement x="0" y="51" width="100" height="29" uuid="57d9bac8-035b-4de1-970a-11e059e366cf"/>
+					<textElement textAlignment="Center" verticalAlignment="Middle" markup="styled">
+						<font fontName="Microsoft JhengHei UI" size="18" isBold="true"/>
+					</textElement>
+					<textFieldExpression><![CDATA[$P{pokemon_name_23}]]></textFieldExpression>
+				</textField>
+			</frame>
+			<frame>
+				<reportElement x="325" y="320" width="100" height="80" uuid="ab24e1e7-93b5-456f-aa18-6a185fdd264b"/>
+				<box>
+					<pen lineWidth="1.0"/>
+				</box>
+				<image hAlign="Center" vAlign="Middle">
+					<reportElement mode="Transparent" x="15" y="6" width="70" height="70" uuid="f059d471-3b59-4c28-8e13-d48e894341e4">
+						<property name="com.jaspersoft.studio.unit.width" value="px"/>
+						<property name="com.jaspersoft.studio.unit.height" value="px"/>
+					</reportElement>
+					<imageExpression><![CDATA["static/images/pokeball.png"]]></imageExpression>
+				</image>
+				<image hAlign="Center" vAlign="Middle">
+					<reportElement x="1" y="1" width="99" height="79" uuid="75eb23f9-52e9-48ff-9d56-8aaaaf54c6e5"/>
+					<imageExpression><![CDATA[$P{pokemon_sprite_24}]]></imageExpression>
+				</image>
+				<textField textAdjust="ScaleFont">
+					<reportElement x="0" y="51" width="100" height="29" uuid="52585841-f297-4fcb-89ea-ffeee1ec4aff"/>
+					<textElement textAlignment="Center" verticalAlignment="Middle" markup="styled">
+						<font fontName="Microsoft JhengHei UI" size="18" isBold="true"/>
+					</textElement>
+					<textFieldExpression><![CDATA[$P{pokemon_name_24}]]></textFieldExpression>
+				</textField>
+			</frame>
+			<frame>
+				<reportElement x="425" y="320" width="100" height="80" uuid="666a28bc-18fb-4787-b6e9-6360f6df6889"/>
+				<box>
+					<pen lineWidth="1.0"/>
+				</box>
+				<image hAlign="Center" vAlign="Middle">
+					<reportElement mode="Transparent" x="15" y="6" width="70" height="70" uuid="f543aeb0-fe0e-4344-b62c-ec54c2b00488">
+						<property name="com.jaspersoft.studio.unit.width" value="px"/>
+						<property name="com.jaspersoft.studio.unit.height" value="px"/>
+					</reportElement>
+					<imageExpression><![CDATA["static/images/pokeball.png"]]></imageExpression>
+				</image>
+				<image hAlign="Center" vAlign="Middle">
+					<reportElement x="1" y="1" width="99" height="79" uuid="48b045a1-af62-492d-8cf3-84187968cc2d"/>
+					<imageExpression><![CDATA[$P{pokemon_sprite_25}]]></imageExpression>
+				</image>
+				<textField textAdjust="ScaleFont">
+					<reportElement x="0" y="51" width="100" height="29" uuid="1b0021b0-bd09-401e-8001-f5fe283db27b"/>
+					<textElement textAlignment="Center" verticalAlignment="Middle" markup="styled">
+						<font fontName="Microsoft JhengHei UI" size="18" isBold="true"/>
+					</textElement>
+					<textFieldExpression><![CDATA[$P{pokemon_name_25}]]></textFieldExpression>
+				</textField>
+			</frame>
+		</band>
+	</detail>
+</jasperReport>
